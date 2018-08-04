@@ -28,7 +28,7 @@ import org.elasticsearch.transport.client.PreBuiltTransportClient;
 
 public class testEs {
      public static void main(String[] args) throws UnknownHostException {
-    	// on startup
+    	// on startup bb 
 
     	 Settings settings = Settings.builder()
     		        .put("client.transport.sniff", true).build();
